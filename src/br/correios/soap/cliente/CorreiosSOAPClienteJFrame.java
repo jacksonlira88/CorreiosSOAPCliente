@@ -470,9 +470,9 @@ public class CorreiosSOAPClienteJFrame extends javax.swing.JFrame {
         String diam = nDiam.getText();
         nDiametro = new BigDecimal(diam);
         String vdecl =  valorDecl.getText();
-        nVlValorDeclarado = new BigDecimal(vdecl);
+            nVlValorDeclarado = new BigDecimal(0);
         }catch(Exception e){
-            e.toString();
+            e.printStackTrace();
         }
 //////// -----------STRINGS
         nServico = nServ.getText();
